@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/cland"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="113dp"
+        android:layout_marginRight="113dp"
+        android:layout_marginBottom="-178dp"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="522dp"
+        android:layout_marginRight="522dp"
+        android:layout_marginBottom="-177dp"
+        android:text="Sver" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Programming language: "
+        android:textColor="#f00"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#e0e0e0"
+        android:orientation="vertical">
+        <CheckBox
+            android:id="@+id/androidCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/android"
+            android:textColor="#44f"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+        <CheckBox
+            android:id="@+id/javaCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/java"
+            android:textColor="#f44"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+        <CheckBox
+            android:id="@+id/phpCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/php"
+            android:textColor="#444"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+        <CheckBox
+            android:id="@+id/pythonCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/python"
+            android:textColor="#888"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+        <CheckBox
+            android:id="@+id/unityCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/unity"
+            android:textColor="#101010"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+</RelativeLayout>

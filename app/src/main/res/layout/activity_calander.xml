@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calander">
+    <!-- CalendarView with monday as first day and minmal and maximal day -->
+    <CalendarView
+        android:id="@+id/simpleCalendarView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:firstDayOfWeek="2"
+        android:maxDate="01/01/2060"
+        android:minDate="01/01/1970" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="120sp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="565dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp">
+
+        <Button
+            android:id="@+id/clander"
+            android:layout_width="160sp"
+            android:layout_height="80sp"
+            android:layout_gravity="center"
+            android:text="Calandeer"
+            android:textSize="18sp" />
+    </FrameLayout>
+
+
+
+</RelativeLayout>
