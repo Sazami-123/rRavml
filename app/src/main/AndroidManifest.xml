@@ -11,9 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RRavml">
         <activity android:name=".loginpage"></activity>
-        <activity
-            android:name=".ui.login.LoginActivity"
-            android:label="@string/title_activity_login" />
+
+
         <activity android:name=".Calander" />
         <activity android:name=".MainActivity">
             <intent-filter>

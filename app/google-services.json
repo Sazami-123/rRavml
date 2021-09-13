@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "530847718356",
+    "project_id": "ravimoregon",
+    "storage_bucket": "ravimoregon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530847718356:android:6fbcb3bca4cb5436f35441",
+        "android_client_info": {
+          "package_name": "com.example.rravml"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530847718356-4pfp9famdmr66u41ngveca92ujh70o8n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz-yU-5CzYmREImkDryDG4ggtGg8XaWQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530847718356-4pfp9famdmr66u41ngveca92ujh70o8n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
